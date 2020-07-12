@@ -1,0 +1,55 @@
+\hypertarget{stage1_8c}{}\section{stage1.\+c File Reference}
+\label{stage1_8c}\index{stage1.\+c@{stage1.\+c}}
+
+
+test stage1  
+
+
+{\ttfamily \#include \char`\"{}stage1.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}option.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}sound.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}fonction.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}enigme.\+h\char`\"{}}\newline
+Include dependency graph for stage1.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{stage1_8c_ad67b7981a5b5c479cd25328af2db4a3a}\label{stage1_8c_ad67b7981a5b5c479cd25328af2db4a3a}} 
+\#define {\bfseries T\+E\+M\+PS}~30
+\item 
+\mbox{\Hypertarget{stage1_8c_a2824eb24d9036e976efc661c46cb15a6}\label{stage1_8c_a2824eb24d9036e976efc661c46cb15a6}} 
+\#define {\bfseries speed}~6
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{stage1_8c_af24d90bd334cf74251c95123671862e7}\label{stage1_8c_af24d90bd334cf74251c95123671862e7}} 
+void {\bfseries Blit} (S\+D\+L\+\_\+\+Surface $\ast$source, S\+D\+L\+\_\+\+Surface $\ast$dest, int x, int y)
+\item 
+\mbox{\Hypertarget{stage1_8c_a1becfcd4daa58c18160c8fb5e9d78e29}\label{stage1_8c_a1becfcd4daa58c18160c8fb5e9d78e29}} 
+void {\bfseries stage0} (S\+D\+L\+\_\+\+Surface $\ast$ecran, int $\ast$continuer, Mix\+\_\+\+Music $\ast$intro, Mix\+\_\+\+Chunk $\ast$effet, Mix\+\_\+\+Chunk $\ast$effet2, Mix\+\_\+\+Music $\ast$musique, int $\ast$mute, S\+D\+L\+\_\+\+Rect $\ast$posvolb, Mix\+\_\+\+Chunk $\ast$sonspell)
+\item 
+\mbox{\Hypertarget{stage1_8c_ab8fc8c25e0629a19256ad4f266b65018}\label{stage1_8c_ab8fc8c25e0629a19256ad4f266b65018}} 
+int {\bfseries arduino\+Write\+Data} (int x)
+\item 
+\mbox{\Hypertarget{stage1_8c_af26975b0e6c2018b62f8f188392ffba8}\label{stage1_8c_af26975b0e6c2018b62f8f188392ffba8}} 
+int {\bfseries arduino\+Read\+Data} (int $\ast$x)
+\item 
+\mbox{\Hypertarget{stage1_8c_a0cc969077a2789ce0543add3a78e55c5}\label{stage1_8c_a0cc969077a2789ce0543add3a78e55c5}} 
+void {\bfseries stage1} (S\+D\+L\+\_\+\+Surface $\ast$ecran, int $\ast$continuer, Mix\+\_\+\+Music $\ast$intro, Mix\+\_\+\+Chunk $\ast$effet, Mix\+\_\+\+Chunk $\ast$effet2, Mix\+\_\+\+Music $\ast$musique, int $\ast$mute, S\+D\+L\+\_\+\+Rect $\ast$posvolb, Mix\+\_\+\+Chunk $\ast$sonspell, Mix\+\_\+\+Chunk $\ast$dying, Mix\+\_\+\+Chunk $\ast$hit, int $\ast$victory)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+test stage1 
+
+\begin{DoxyAuthor}{Author}
+Melek Chtourou \&\& M\textquotesingle{}sahel Hbib 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+Apr 08, 2019 
+\end{DoxyDate}
